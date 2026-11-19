@@ -1,0 +1,38 @@
+# Large intermediate outputs (not tracked)
+screening_scores.csv
+*.joblib
+*.pkl
+
+# Raw ChemDiv library shards (re-downloadable from ChemDiv)
+chemdiv_*.csv
+
+# Third-party tools / dependencies
+wheels/
+DiffDock/
+OnionNet-2/
+
+# Docking intermediate outputs (900+ poses)
+vina/ligand_*.pdbqt
+vina/out_*.pdbqt
+vina/log_*.txt
+
+# Temporary / build artifacts
+*.pyc
+__pycache__/
+*.tmp
+_tmp_*
+.chart-data-*/
+.ppt_build/
+.scientific_deck_build/
+.slidep/
+.workbuddy/
+output/
+logs/
+onionnet_input/
+onionnet_only/
+diffdock_results/
+diffdock_input*.csv
+
+# OS
+.DS_Store
+Thumbs.db

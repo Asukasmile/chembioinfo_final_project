@@ -1,0 +1,10 @@
+{
+  "n_compounds": 8077,
+  "n_unique_scaffolds": 3250,
+  "n_unique_generic_scaffolds": 2361,
+  "scaffold_diversity": 0.4024,
+  "mean_internal_tanimoto": 0.14,
+  "median_internal_tanimoto": 0.1264,
+  "top10_scaffold_coverage_frac": 0.1363,
+  "singleton_scaffold_count": 2080
+}
